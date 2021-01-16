@@ -15,7 +15,7 @@ class Sushi extends Component {
   render() {
     return (
         <div id="sushi">
-            <img src={sushi}></img>
+            <img src={sushi} alt="sushiimg"></img>
         </div>
     );
   }

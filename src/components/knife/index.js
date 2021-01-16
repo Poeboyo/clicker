@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import knife from "../../assets/images/kife.png"
+import knife from "../../assets/images/knife.png"
 
 class Knife extends Component {
   constructor(props){
@@ -12,11 +12,10 @@ class Knife extends Component {
     this.setState({ value: e.target.value });
   };
 
-
   render() {
     return (
         <div id ="knife">
-            <img src ={knife}></img>
+            <img src ={knife} alt="knifeimg"></img>
         </div>
     );
   }
